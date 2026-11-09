@@ -108,6 +108,7 @@ Maintain and Audit WAF Rules: Ensure ModSecurity WAF rules are regularly updated
 Audit Public DNS and TXT Records: Periodically review DNS zones to remove obsolete SRV autodiscover records and restrict unnecessary internal routing metadata.
 Perform Regular Internal Discovery Scans: Network administrators should regularly run host discovery scans (like Zenmap/Nmap) across local subnets (10.138.104.0/24) to identify rogue or unauthorized devices.
 Maintain Up-to-Date Asset Inventories: Keep accurate records of all active IP assignments and MAC addresses (DE:D0:A3:D3:AD:B5) across gateway routers and endpoints.
+
 7. Conclusion
 During Week 2 of my Cybersecurity & Ethical Hacking internship at Networkwalks, I completed practical activities covering passive footprinting and active network scanning.
 
@@ -116,5 +117,14 @@ In the footprinting activity (W2-PM1), I used six Kali Linux tools (whois, whatw
 In the network scanning activity (W2-PM5), I used Zenmap to discover active hosts within my local subnet (10.138.104.0/24), identifying live IPs, physical MAC addresses, and generating a visual network topology graph.
 
 These exercises demonstrated that information gathering is an essential preliminary phase in penetration testing. Even without exploitation, thorough reconnaissance reveals valuable structural details that aid security professionals in defensive hardening.
+8. Evidence Collected
+i.Whois tool output
+ii. Whatweb output
+iii. Nslookup output
+iv.Curl output
+v. Wafw00f output
+vi. DNSRecon output
+vii. Zenmap scan output
+viii. Zenmap topology
 8. Evidences Collected
 
